@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="0 0 36 36" contentsFormat="RGBA8" name="Root Layer" position="18 18" transform="">
+    <backgroundColor opacity="0" value="0 0 0"/>
+    <sublayers>
+      <CALayer id="#2" allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" backgroundColor="1 1 1" bounds="0 0 36 36" contentsFormat="RGBA8" cornerRadius="18" name="platter" opacity="0.1599999964237" position="18 18">
+	<compositingFilter type="CAFilter" filter="plusL" name="plusL"/>
+      </CALayer>
+      <CALayer id="#1" allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" backgroundColor="0 0.4784 1" bounds="0 0 36 36" contentsFormat="RGBA8" cornerRadius="18" name="blue platter" opacity="0" position="18 18"/>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="0 0 36 36" contentsFormat="RGBA8" name="icon" position="18 18" transform="rotate(180deg)">
+	<sublayers>
+	  <CALayer id="#4" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 24 24" contentsFormat="RGBA8" name="airplay" opacity="1" position="18 18" transform="">
+	    <sublayers>
+	      <CAShapeLayer fillColor="1 1 1" path="4.3128339 21.32570995 m 4.1941058 21.46122495 3.98915286 21.47067945 3.85818639 21.34752815 c 1.48704162 19.11690475 0 15.92797955 0 12.39222655 c 0 5.54682115 5.5723531 0 12.3468481 0.19523208 c 18.7475959 0.37971669 23.9124271 5.71401285 23.9988905 12.22454995 c 24.0466519 15.82858575 22.5491997 19.08425835 20.1389557 21.35011395 c 20.0083071 21.47302295 19.803831 21.46373005 19.6851029 21.32878065 c 19.1555151 20.72724615 l 19.0403632 20.59633715 19.0488665 20.39544855 19.1755416 20.27609515 c 21.2615482 18.31165325 22.5694645 15.50446495 22.5694645 12.39222655 c 22.5694645 6.36282015 17.6614802 1.47716982 11.6944793 1.64921001 c 6.1435831 1.8092098 1.62849812 6.37073925 1.43697556 12.01396435 c 1.32627392 15.27448545 2.65262731 18.22874425 4.820488 20.27229715 c 4.9469246 20.39148895 4.9555074 20.59181195 4.8409117 20.72272085 c 4.3128339 21.32570995 l h 4.8477064 12.39224265 m 4.8477064 14.47232085 5.710909 16.35126785 7.092335 17.67805405 c 7.2175797 17.79837715 7.2273545 17.99748795 7.1126793 18.12839695 c 6.584681 18.73138605 l 6.465635 18.86730505 6.2594105 18.87692125 6.1288414 18.75231535 c 4.4607672 17.15918605 3.41724739 14.89737075 3.41724739 12.39224265 c 3.41724739 7.46554195 7.4527312 3.47920361 12.3391792 3.67168821 c 16.8398801 3.84890011 20.468001 7.59224885 20.5800537 12.17082885 c 20.6437091 14.76904765 19.5841363 17.12177195 17.8609895 18.76209305 c 17.7308177 18.88605255 17.5260236 18.87578985 17.4071366 18.74075975 c 16.87739 18.13882115 l 16.7620791 18.00783145 16.7716949 17.80807405 16.8975753 17.68750855 c 18.3092794 16.33672245 19.1827336 14.41074515 19.1515019 12.28169735 c 19.0949988 8.43725785 16.0610747 5.27386795 12.2826761 5.12510045 c 8.2106361 4.96469665 4.8477064 8.28671255 4.8477064 12.39224265 c h 8.2649141 12.39224265 m 8.2649141 13.44638275 8.6898399 14.40104815 9.374235 15.08977455 c 9.4935989 15.20993605 9.4980492 15.40460245 9.3863145 15.53211745 c 8.8579983 16.13542975 l 8.7366477 16.27409625 8.5267675 16.27942955 8.3960395 16.14981355 c 7.433579 15.19530975 6.8344551 13.86399835 6.8344551 12.39224265 c 6.8344551 9.41293335 9.2865002 7.00501725 12.2463583 7.14554235 c 14.8617143 7.26974415 16.9959591 9.40719595 17.1556937 12.06448555 c 17.2524086 13.67337235 16.631351 15.13939065 15.5887848 16.16492465 c 15.4579773 16.29357095 15.2492097 16.28904575 15.1277796 16.15110655 c 14.5982714 15.54941035 l 14.4859804 15.42181455 14.489477 15.22585515 14.609874 15.10617855 c 15.3514081 14.36880575 15.7931815 13.32096875 15.7288903 12.17163685 c 15.6205728 10.23475045 14.061134 8.67620705 12.154809 8.59750005 c 10.0250939 8.50950015 8.2649141 10.24582115 8.2649141 12.39224265 c h 19.5377735 23.38441445 m 19.8096402 23.69738365 19.5910979 24.19023155 19.1803972 24.19023155 c 4.8196217 24.19023155 l 4.4089211 24.19023155 4.1903787 23.69738365 4.4622454 23.38441445 c 11.5829909 15.18604105 l 11.8044737 14.93117275 12.1954658 14.93117275 12.4169485 15.18604105 c 19.5377735 23.38441445 l h" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 24.0466519 24.19023155" contentsFormat="RGBA8" name="airplay" position="12.02332595 11.904884225"/>
+	    </sublayers>
+	  </CALayer>
+	  <CALayer id="#3" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 20 13" contentsFormat="RGBA8" name="playpuase" opacity="0" position="18 18.5" transform="scale(0.8, 0.8, 1)">
+	    <sublayers>
+	      <CAShapeLayer fillColor="1 1 1" path="1.00439453 12.2680664 m 0.46484375 12.2680664 0 11.8613281 0 11.1225586 c 0 1.1455078 l 0 0.4067383 0.45654297 0 1.00439453 0 c 1.27001953 0 1.51074219 0.0830078 1.80957031 0.2490234 c 9.2114258 5.0300293 l 9.6928711 5.3039551 10 5.611084 10 6.1340332 c 10 6.6569824 9.6928711 6.9724121 9.2114258 7.2463379 c 1.80957031 12.0107422 l 1.51904297 12.1850586 1.27832031 12.2680664 1.00439453 12.2680664 c h 17.2775481 0 m 18.7136629 0 l 19.1594222 0 19.3210654 0.0464128 19.4840283 0.1335664 c 19.6469913 0.2207199 19.7748856 0.3486142 19.8620391 0.5115771 c 19.9491927 0.6745401 19.9956055 0.8361832 19.9956055 1.2819426 c 19.9956055 10.7180574 l 19.9956055 11.1638168 19.9491927 11.3254599 19.8620391 11.4884229 c 19.7748856 11.6513858 19.6469913 11.7792801 19.4840283 11.8664336 c 19.3210654 11.9535872 19.1594222 12 18.7136629 12 c 17.2775481 12 l 16.8317887 12 16.6701456 11.9535872 16.5071826 11.8664336 c 16.3442197 11.7792801 16.2163254 11.6513858 16.1291718 11.4884229 c 16.0420183 11.3254599 15.9956055 11.1638168 15.9956055 10.7180574 c 15.9956055 1.2819426 l 15.9956055 0.8361832 16.0420183 0.6745401 16.1291718 0.5115771 c 16.2163254 0.3486142 16.3442197 0.2207199 16.5071826 0.1335664 c 16.6701456 0.0464128 16.8317887 0 17.2775481 0 c h 12.2819426 0 m 13.7180574 0 l 14.1638168 0 14.3254599 0.0464128 14.4884229 0.1335664 c 14.6513858 0.2207199 14.7792801 0.3486142 14.8664336 0.5115771 c 14.9535872 0.6745401 15 0.8361832 15 1.2819426 c 15 10.7180574 l 15 11.1638168 14.9535872 11.3254599 14.8664336 11.4884229 c 14.7792801 11.6513858 14.6513858 11.7792801 14.4884229 11.8664336 c 14.3254599 11.9535872 14.1638168 12 13.7180574 12 c 12.2819426 12 l 11.8361832 12 11.6745401 11.9535872 11.5115771 11.8664336 c 11.3486142 11.7792801 11.2207199 11.6513858 11.1335664 11.4884229 c 11.0464128 11.3254599 11 11.1638168 11 10.7180574 c 11 1.2819426 l 11 0.8361832 11.0464128 0.6745401 11.1335664 0.5115771 c 11.2207199 0.3486142 11.3486142 0.2207199 11.5115771 0.1335664 c 11.6745401 0.0464128 11.8361832 0 12.2819426 0 c h" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 19.9956055 12.2680664" contentsFormat="RGBA8" name="playpuase" position="9.99780275 6.1340332" transform="rotate(180deg)"/>
+	    </sublayers>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+    <states>
+      <LKState name="active">
+	<elements>
+	  <LKStateSetValue final="false" targetId="#1" keyPath="opacity">
+	    <value type="integer" value="1"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue final="false" targetId="#2" keyPath="opacity">
+	    <value type="integer" value="0"/>
+	  </LKStateSetValue>
+	</elements>
+      </LKState>
+      <LKState name="playpause">
+	<elements>
+	  <LKStateSetValue final="false" targetId="#3" keyPath="opacity">
+	    <value type="integer" value="1"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue final="false" targetId="#4" keyPath="opacity">
+	    <value type="integer" value="0"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue final="false" targetId="#4" keyPath="transform.scale.xy">
+	    <value type="real" value="0.8000000119209"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue final="false" targetId="#3" keyPath="transform.scale.xy">
+	    <value type="integer" value="1"/>
+	  </LKStateSetValue>
+	</elements>
+      </LKState>
+    </states>
+    <stateTransitions>
+      <LKStateTransition fromState="*" toState="active">
+	<elements>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#1">
+	    <animation type="CABasicAnimation" keyPath="opacity" duration="0.3199999928474" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#2">
+	    <animation type="CABasicAnimation" keyPath="opacity" duration="0.3199999928474" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+      <LKStateTransition fromState="active" toState="*">
+	<elements>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#1">
+	    <animation type="CABasicAnimation" keyPath="opacity" duration="0.25" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#2">
+	    <animation type="CABasicAnimation" keyPath="opacity" duration="0.25" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+      <LKStateTransition fromState="*" toState="playpause">
+	<elements>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#3">
+	    <animation type="CABasicAnimation" keyPath="opacity" beginTime="0.07999999821186" duration="0.3199999928474" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#4">
+	    <animation type="CABasicAnimation" keyPath="opacity" duration="0.3199999928474" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="transform.scale.xy" targetId="#4">
+	    <animation type="CASpringAnimation" damping="1000" mass="3" stiffness="500" keyPath="transform.scale.xy" beginTime="1e-100" duration="1" fillMode="backwards" timingFunction="0.1878 0.0023 0.5399 0.9629"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="transform.scale.xy" targetId="#3">
+	    <animation type="CASpringAnimation" damping="1000" mass="3" stiffness="500" keyPath="transform.scale.xy" beginTime="1e-100" duration="1" fillMode="backwards" timingFunction="0.1878 0.0023 0.5399 0.9629"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+      <LKStateTransition fromState="playpause" toState="*">
+	<elements>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#3">
+	    <animation type="CABasicAnimation" keyPath="opacity" beginTime="1e-100" duration="0.3199999928474" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="opacity" targetId="#4">
+	    <animation type="CABasicAnimation" keyPath="opacity" beginTime="0.1199999973178" duration="0.3199999928474" fillMode="backwards" timingFunction="default"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="transform.scale.xy" targetId="#4">
+	    <animation type="CASpringAnimation" damping="1000" mass="3" stiffness="500" keyPath="transform.scale.xy" beginTime="1e-100" duration="1" fillMode="backwards" timingFunction="0.1878 0.0023 0.5399 0.9629"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="transform.scale.xy" targetId="#3">
+	    <animation type="CASpringAnimation" damping="1000" mass="3" stiffness="500" keyPath="transform.scale.xy" beginTime="1e-100" duration="1" fillMode="backwards" timingFunction="0.1878 0.0023 0.5399 0.9629"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+    </stateTransitions>
+  </CALayer>
+</caml>

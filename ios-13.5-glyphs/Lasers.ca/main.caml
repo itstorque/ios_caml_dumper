@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer backgroundColor="0 0 0" bounds="0 0 272 340" clearsContext="1" hidden="0" masksToBounds="0" name="root" opaque="0" position="136 170">
+    <sublayers>
+      <CALayer id="0" backgroundColor="0 0 0" bounds="0 0 272 340" hidden="0" masksToBounds="1" name="0" position="136 170">
+	<filters>
+	  <CAFilter filter="colorHueRotate" name="colorHueRotate" inputAngle="0"/>
+	</filters>
+	<sublayers>
+	  <CAGradientLayer id="halo" endPoint="1 1" startPoint="0.5 0.5" bounds="0 0 400 400" hidden="0" name="halo" opacity="0.5" position="200 60">
+	    <colors>
+	      <CGColor value="0.9982 0.5778 0"/>
+	      <CGColor value="0 0 0"/>
+	    </colors>
+	    <locations>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </locations>
+	    <type value="radial"/>
+	    <animations>
+	      <animation-1 type="CAKeyframeAnimation" keyPath="transform.scale.xy" beginTime="1e-100" duration="6.003300094604" fillMode="both" removedOnCompletion="0" speed="1" frameInterval="0.01666666667">
+		<keyTimes>
+		  <integer value="0"/>
+		  <real value="0.03999999910593"/>
+		  <real value="0.3537349751792"/>
+		  <real value="0.8288010817308"/>
+		  <integer value="1"/>
+		</keyTimes>
+		<values>
+		  <integer value="0"/>
+		  <real value="0.7999447082528"/>
+		  <real value="2.000324500008"/>
+		  <real value="1.5"/>
+		  <real value="0.4777644230769"/>
+		</values>
+	      </animation-1>
+	    </animations>
+	  </CAGradientLayer>
+	  <CALayer id="light" bounds="0 0 0 0" hidden="0" name="light" position="0 0" allowsGroupBlending="0" allowsGroupOpacity="0">
+	    <filters>
+	      <CAFilter filter="multiplyColor" name="multiplyColor" inputColor="1 0.5781 0"/>
+	    </filters>
+	    <sublayers>
+	      <CAReplicatorLayer id="replicator" instanceCount="6" instanceTransform="rotate(50deg, 0, 1, 0)" preservesDepth="1" bounds="0 0 272 340" hidden="0" name="replicator" position="242 170" sublayerTransform="perspective(324.89)" transform="rotate(180deg) rotate(58.1155deg, 0, 1, 0) rotate(180deg, 1, 0, 0)" allowsGroupBlending="0" allowsGroupOpacity="0">
+		<compositingFilter type="CAFilter" filter="screenBlendMode" name="screenBlendMode"/>
+		<sublayers>
+		  <CALayer id="ray" anchorPoint="0.5 0" bounds="0 0 200 700" hidden="0" name="ray" position="136 60" transform="rotate(180deg, 1, 0, 0)" allowsGroupBlending="0" allowsGroupOpacity="0">
+		    <compositingFilter type="CAFilter" filter="screenBlendMode" name="screenBlendMode"/>
+		    <contents type="CGImage" src="assets/strobe.tif"/>
+		    <animations>
+		      <animation-2 type="CAKeyframeAnimation" keyPath="transform.scale.xy" beginTime="1e-100" duration="6" removedOnCompletion="0" frameInterval="0.01666666667">
+			<keyTimes>
+			  <integer value="0"/>
+			  <real value="0.1496646645121"/>
+			  <real value="0.8498623794948"/>
+			  <integer value="1"/>
+			</keyTimes>
+			<values>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			</values>
+		      </animation-2>
+		      <animation-1 type="CAKeyframeAnimation" calculationMode="cubic" keyPath="transform.rotation.x" autoreverses="0" beginTime="1e-100" duration="6" removedOnCompletion="0" repeatCount="0" frameInterval="0.01666666667">
+			<keyTimes>
+			  <integer value="0"/>
+			  <real value="0.5"/>
+			  <integer value="1"/>
+			</keyTimes>
+			<values>
+			  <real value="2.094395006076"/>
+			  <real value="0.5576557712107"/>
+			  <real value="2.094395158812"/>
+			</values>
+		      </animation-1>
+		    </animations>
+		  </CALayer>
+		</sublayers>
+		<animations>
+		  <animation-1 type="CAKeyframeAnimation" calculationMode="cubic" keyPath="instanceTransform.rotation.y" autoreverses="0" beginTime="1e-100" duration="6" removedOnCompletion="0" repeatCount="0" frameInterval="0.01666666667">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <real value="0.5"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <real value="-3.14159265359"/>
+		      <real value="-1.920499893692"/>
+		      <real value="-0.7155850121104"/>
+		    </values>
+		  </animation-1>
+		</animations>
+	      </CAReplicatorLayer>
+	    </sublayers>
+	  </CALayer>
+	  <CAEmitterLayer id="spotlight" emitterMode="points" preservesDepth="1" renderMode="cheapAdditive" bounds="0 0 0 0" hidden="0" name="spotlight" position="200 60" timeOffset="0.6999999880791" updateInterval="0.01666666667">
+	    <emitterCells>
+	      <CAEmitterCell alphaRange="0" alphaSpeed="-0.5" birthRate="4" color="0.9982 0.6977 0.2847" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsRect="0 0 1 1" contentsScale="1" emissionLatitude="0" emissionRange="0" enabled="1" lifetime="2" lifetimeRange="0" name="LED" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0.7315204143524" redSpeed="0.8170071840286" rotation="0.1396263316274" rotationRange="0" scale="0" scaleRange="0" scaleSpeed="0.5620000641793" spin="1.411608446147" spinRange="1.084040364716">
+		<contents type="CGImage" src="assets/spotlight.tif"/>
+	      </CAEmitterCell>
+	    </emitterCells>
+	  </CAEmitterLayer>
+	</sublayers>
+	<animations>
+	  <animation-1 type="CAKeyframeAnimation" keyPath="filters.colorHueRotate.inputAngle" autoreverses="0" beginTime="1e-100" duration="6" enabled="1" removedOnCompletion="0" repeatCount="0" frameInterval="0.01666666667">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <real value="-3.14159265359"/>
+	      <real value="3.14159265359"/>
+	    </values>
+	  </animation-1>
+	</animations>
+      </CALayer>
+    </sublayers>
+    <eventHandlers>
+      <LKEventHandler eventType="event" action="script"/>
+    </eventHandlers>
+  </CALayer>
+</caml>

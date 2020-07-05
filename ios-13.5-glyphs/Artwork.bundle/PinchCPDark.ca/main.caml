@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 464 316" contentsFormat="RGBA8" duration="4.766666666667" name="root" position="232 158" repeatCount="Inf">
+    <sublayers>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="-0.04853 0.6033 1.001" bounds="0 0 24 24" contentsFormat="RGBA8" cornerRadius="12" hidden="0" name="Blue Dot" position="232.5 220.75">
+	<animations>
+	  <p key="animation-4" type="CAKeyframeAnimation" keyPath="opacity" beginTime="0.2661783854167" duration="1.283821614583" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.369735540962"/>
+	      <real value="0.6549101143538"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.7999999761581"/>
+	      <real value="0.8"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <p key="animation-2" type="CAKeyframeAnimation" keyPath="transform.scale.x" beginTime="0.48857421875" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3403054303593"/>
+	      <real value="0.5728350763576"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-3" type="CAKeyframeAnimation" keyPath="transform.scale.y" beginTime="0.48857421875" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3403054303593"/>
+	      <real value="0.5728350763576"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="position" beginTime="0.6776041666667" duration="0.3793619791667" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.6667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <CGPoint value="232.5 220.75"/>
+	      <CGPoint value="232.5 192.5"/>
+	    </values>
+	  </p>
+	</animations>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="-0.04853 0.6033 1.001" bounds="0 0 24 24" contentsFormat="RGBA8" cornerRadius="12" hidden="0" name="Blue Dot" position="197.5 123.25">
+	<animations>
+	  <p key="animation-4" type="CAKeyframeAnimation" keyPath="opacity" beginTime="0.2661783854167" duration="1.283821614583" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.369735540962"/>
+	      <real value="0.6549101143538"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.7999999880791"/>
+	      <real value="0.7999999880791"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <p key="animation-2" type="CAKeyframeAnimation" keyPath="transform.scale.x" beginTime="0.48857421875" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3403054303593"/>
+	      <real value="0.5728350763576"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-3" type="CAKeyframeAnimation" keyPath="transform.scale.y" beginTime="0.48857421875" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3403054303593"/>
+	      <real value="0.5728350763576"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="position" beginTime="0.6776041666667" duration="0.3793619791667" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.6667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <CGPoint value="197.5 123.25"/>
+	      <CGPoint value="206.75 147"/>
+	    </values>
+	  </p>
+	</animations>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="-0.04853 0.6033 1.001" bounds="0 0 24 24" contentsFormat="RGBA8" cornerRadius="12" hidden="0" name="Blue Dot" position="264.5 123">
+	<animations>
+	  <p key="animation-4" type="CAKeyframeAnimation" keyPath="opacity" beginTime="0.2661783854167" duration="1.283821614583" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.369735540962"/>
+	      <real value="0.6549101143538"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.7999999880791"/>
+	      <real value="0.7999999880791"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <p key="animation-2" type="CAKeyframeAnimation" keyPath="transform.scale.x" beginTime="0.48857421875" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3403054303593"/>
+	      <real value="0.5728350763576"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-3" type="CAKeyframeAnimation" keyPath="transform.scale.y" beginTime="0.48857421875" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3403054303593"/>
+	      <real value="0.5728350763576"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="position" beginTime="0.6776041666667" duration="0.3793619791667" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.16667 0.16667 0.6667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <CGPoint value="264.5 123"/>
+	      <CGPoint value="258.75 146.5"/>
+	    </values>
+	  </p>
+	</animations>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="-0.04853 0.6033 1.001" bounds="0 0 24 24" contentsFormat="RGBA8" cornerRadius="12" name="Blue Dot" position="232.5 192.5">
+	<animations>
+	  <p key="animation-4" type="CAKeyframeAnimation" keyPath="opacity" beginTime="2.59951171875" duration="1.283821614583" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3450898856462"/>
+	      <real value="0.630264459038"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.7999999880791"/>
+	      <real value="0.7999999880791"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <p key="animation-2" type="CAKeyframeAnimation" keyPath="transform.scale.x" beginTime="2.821907552083" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.4271649236424"/>
+	      <real value="0.6596945696408"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.83333 0.83333"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-3" type="CAKeyframeAnimation" keyPath="transform.scale.y" beginTime="2.821907552083" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.4271649236424"/>
+	      <real value="0.6596945696408"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.83333 0.83333"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="position" beginTime="3.0109375" duration="0.4557291666667" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.3333 0 0.55 1"/>
+	    </timingFunctions>
+	    <values>
+	      <CGPoint value="232.5 192.5"/>
+	      <CGPoint value="232.5 220.75"/>
+	    </values>
+	  </p>
+	</animations>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="-0.04853 0.6033 1.001" bounds="0 0 24 24" contentsFormat="RGBA8" cornerRadius="12" name="Blue Dot" position="206.75 147">
+	<animations>
+	  <p key="animation-4" type="CAKeyframeAnimation" keyPath="opacity" beginTime="2.59951171875" duration="1.283821614583" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3450898856462"/>
+	      <real value="0.630264459038"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.7999999880791"/>
+	      <real value="0.7999999880791"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <p key="animation-2" type="CAKeyframeAnimation" keyPath="transform.scale.x" beginTime="2.821907552083" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.4271649236424"/>
+	      <real value="0.6596945696408"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.83333 0.83333"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-3" type="CAKeyframeAnimation" keyPath="transform.scale.y" beginTime="2.821907552083" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.4271649236424"/>
+	      <real value="0.6596945696408"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.83333 0.83333"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="position" beginTime="3.0109375" duration="0.4557291666667" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.3333 0 0.55 1"/>
+	    </timingFunctions>
+	    <values>
+	      <CGPoint value="206.75 147"/>
+	      <CGPoint value="200.5 123.25"/>
+	    </values>
+	  </p>
+	</animations>
+      </CALayer>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="-0.04853 0.6033 1.001" bounds="0 0 24 24" contentsFormat="RGBA8" cornerRadius="12" name="Blue Dot" position="258.75 146.5">
+	<animations>
+	  <p key="animation-4" type="CAKeyframeAnimation" keyPath="opacity" beginTime="2.59951171875" duration="1.283821614583" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.3450898856462"/>
+	      <real value="0.630264459038"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.7999999880791"/>
+	      <real value="0.7999999880791"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <p key="animation-2" type="CAKeyframeAnimation" keyPath="transform.scale.x" beginTime="2.821907552083" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.4271649236424"/>
+	      <real value="0.6596945696408"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.83333 0.83333"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-3" type="CAKeyframeAnimation" keyPath="transform.scale.y" beginTime="2.821907552083" duration="0.7439127604167" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.4271649236424"/>
+	      <real value="0.6596945696408"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.83333 0.83333"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="2"/>
+	      <real value="1.65"/>
+	      <real value="1.65"/>
+	      <integer value="2"/>
+	    </values>
+	  </p>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="position" beginTime="3.0109375" duration="0.4557291666667" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.3333 0 0.55 1"/>
+	    </timingFunctions>
+	    <values>
+	      <CGPoint value="258.75 146.5"/>
+	      <CGPoint value="266 123"/>
+	    </values>
+	  </p>
+	</animations>
+      </CALayer>
+      <CAEmitterLayer emitterSize="16 16" renderMode="maximum" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 60 60" contentsFormat="RGBA8" hidden="0" name="R3" opacity="0" position="213 90" transform="rotate(-110deg) scale(0.86, 0.86, 1)">
+	<emitterCells>
+	  <CAEmitterCell alphaRange="0" birthRate="100" blueRange="0" emissionLatitude="0" emissionLongitude="0" emissionRange="0" greenRange="0" lifetime="0.3000000119209" name="Cell 2" redRange="0" scale="1" velocity="0" velocityRange="0" xAcceleration="0">
+	    <contents type="CGImage" src="assets/Blue.png"/>
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="color.alpha">
+		<values>
+		  <real value="0.35"/>
+		  <integer value="0"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" additive="1" keyPath="scale">
+		<values>
+		  <integer value="1"/>
+		  <real value="0.9800000190735"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="wave" name="wave" enabled="0" frequency="20" force="99999 0 0"/>
+	      <CAEmitterBehavior behavior="wave" name="wave 2" enabled="0" frequency="19" force="0 99999 0"/>
+	      <CAEmitterBehavior behavior="attractor" name="attractor" enabled="0" zPosition="0" orientationLatitude="1.570796370506" attractorType="radial" falloffDistance="0" falloff="Inf" orientationLongitude="-1.570796370506" position="0 0">
+		<stiffness type="integer" value="1"/>
+		<radius type="integer" value="0"/>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	  </CAEmitterCell>
+	</emitterCells>
+	<scriptComponents/>
+	<animations>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="1.224171539961" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5557324840764"/>
+	      <real value="0.6371656050955"/>
+	      <real value="0.9312420382166"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	      <integer value="1"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <animation type="CAKeyframeAnimation" keyPath="emitterPosition.x" beginTime="0.676" duration="0.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="-33"/>
+	    </values>
+	  </animation>
+	</animations>
+      </CAEmitterLayer>
+      <CAEmitterLayer emitterSize="16 16" renderMode="maximum" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 60 60" contentsFormat="RGBA8" hidden="0" name="R3 1" opacity="0" position="297 104" transform="rotate(-75deg) scale(0.86, 0.86, 1)">
+	<emitterCells>
+	  <CAEmitterCell alphaRange="0" birthRate="100" blueRange="0" emissionLatitude="0" emissionLongitude="0" emissionRange="0" greenRange="0" lifetime="0.3000000119209" name="Cell 2" redRange="0" scale="1" velocity="0" velocityRange="0" xAcceleration="0">
+	    <contents type="CGImage" src="assets/Blue.png"/>
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="0">
+		<values>
+		  <real value="0.35"/>
+		  <integer value="0"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" keyPath="scale" additive="1">
+		<values>
+		  <integer value="1"/>
+		  <real value="0.9800000190735"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="wave" name="wave" enabled="0" force="99999 0 0" frequency="20"/>
+	      <CAEmitterBehavior behavior="wave" name="wave 2" enabled="0" force="0 99999 0" frequency="19"/>
+	      <CAEmitterBehavior behavior="attractor" name="attractor" enabled="0" position="0 0" orientationLongitude="-1.570796370506" falloff="Inf" falloffDistance="0" attractorType="radial" orientationLatitude="1.570796370506" zPosition="0">
+		<radius type="integer" value="0"/>
+		<stiffness type="integer" value="1"/>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	  </CAEmitterCell>
+	</emitterCells>
+	<scriptComponents/>
+	<animations>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="1.224171539961" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5557324840764"/>
+	      <real value="0.6371656050955"/>
+	      <real value="0.9312420382166"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	      <integer value="1"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <animation type="CAKeyframeAnimation" keyPath="emitterPosition.x" beginTime="0.676" duration="0.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="-33"/>
+	    </values>
+	  </animation>
+	</animations>
+      </CAEmitterLayer>
+      <CAEmitterLayer emitterSize="16 16" renderMode="maximum" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 60 60" contentsFormat="RGBA8" hidden="0" name="R3 2" opacity="0" position="207 246" transform="rotate(90deg) scale(0.86, 0.86, 1)">
+	<emitterCells>
+	  <CAEmitterCell alphaRange="0" birthRate="100" blueRange="0" emissionLatitude="0" emissionLongitude="0" emissionRange="0" greenRange="0" lifetime="0.3000000119209" name="Cell 2" redRange="0" scale="1" velocity="0" velocityRange="0" xAcceleration="0">
+	    <contents type="CGImage" src="assets/Blue.png"/>
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="color.alpha">
+		<values>
+		  <real value="0.35"/>
+		  <integer value="0"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" additive="1" keyPath="scale">
+		<values>
+		  <integer value="1"/>
+		  <real value="0.9800000190735"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="wave" name="wave" enabled="0" frequency="20" force="99999 0 0"/>
+	      <CAEmitterBehavior behavior="wave" name="wave 2" enabled="0" frequency="19" force="0 99999 0"/>
+	      <CAEmitterBehavior behavior="attractor" name="attractor" enabled="0" zPosition="0" orientationLatitude="1.570796370506" attractorType="radial" falloffDistance="0" falloff="Inf" orientationLongitude="-1.570796370506" position="0 0">
+		<stiffness type="integer" value="1"/>
+		<radius type="integer" value="0"/>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	  </CAEmitterCell>
+	</emitterCells>
+	<scriptComponents/>
+	<animations>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="1.224171539961" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5557324840764"/>
+	      <real value="0.6371656050955"/>
+	      <real value="0.9312420382166"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	      <integer value="1"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <animation type="CAKeyframeAnimation" keyPath="emitterPosition.x" beginTime="0.676" duration="0.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="-33"/>
+	    </values>
+	  </animation>
+	</animations>
+      </CAEmitterLayer>
+      <CAEmitterLayer emitterSize="16 16" renderMode="maximum" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" beginTime="2.366017931913" bounds="0 0 60 60" contentsFormat="RGBA8" hidden="0" name="R3 3" opacity="0" position="258 165" transform="rotate(-90deg) scale(0.86, 0.86, 1)">
+	<emitterCells>
+	  <CAEmitterCell alphaRange="0" birthRate="100" blueRange="0" emissionLatitude="0" emissionLongitude="0" emissionRange="0" greenRange="0" lifetime="0.3000000119209" name="Cell 2" redRange="0" scale="1" velocity="0" velocityRange="0" xAcceleration="0">
+	    <contents type="CGImage" src="assets/Blue.png"/>
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="0">
+		<values>
+		  <real value="0.35"/>
+		  <integer value="0"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" keyPath="scale" additive="1">
+		<values>
+		  <integer value="1"/>
+		  <real value="0.9800000190735"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="wave" name="wave" enabled="0" force="99999 0 0" frequency="20"/>
+	      <CAEmitterBehavior behavior="wave" name="wave 2" enabled="0" force="0 99999 0" frequency="19"/>
+	      <CAEmitterBehavior behavior="attractor" name="attractor" enabled="0" position="0 0" orientationLongitude="-1.570796370506" falloff="Inf" falloffDistance="0" attractorType="radial" orientationLatitude="1.570796370506" zPosition="0">
+		<radius type="integer" value="0"/>
+		<stiffness type="integer" value="1"/>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	  </CAEmitterCell>
+	</emitterCells>
+	<scriptComponents/>
+	<animations>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="1.224171539961" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5557324840764"/>
+	      <real value="0.6371656050955"/>
+	      <real value="0.9312420382166"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	      <integer value="1"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <animation type="CAKeyframeAnimation" keyPath="emitterPosition.x" beginTime="0.676" duration="0.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="-33"/>
+	    </values>
+	  </animation>
+	</animations>
+      </CAEmitterLayer>
+      <CAEmitterLayer emitterSize="16 16" renderMode="maximum" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" beginTime="2.366017931913" bounds="0 0 60 60" contentsFormat="RGBA8" hidden="0" name=" dsgvsfgs" opacity="0" position="189 181" transform="rotate(75deg) scale(0.86, 0.86, 1)">
+	<emitterCells>
+	  <CAEmitterCell alphaRange="0" birthRate="100" blueRange="0" emissionLatitude="0" emissionLongitude="0" emissionRange="0" greenRange="0" lifetime="0.3000000119209" name="Cell 2" redRange="0" scale="1" velocity="0" velocityRange="0" xAcceleration="0">
+	    <contents type="CGImage" src="assets/Blue.png"/>
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="color.alpha">
+		<values>
+		  <real value="0.35"/>
+		  <integer value="0"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" additive="1" keyPath="scale">
+		<values>
+		  <integer value="1"/>
+		  <real value="0.9800000190735"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="wave" name="wave" enabled="0" frequency="20" force="99999 0 0"/>
+	      <CAEmitterBehavior behavior="wave" name="wave 2" enabled="0" frequency="19" force="0 99999 0"/>
+	      <CAEmitterBehavior behavior="attractor" name="attractor" enabled="0" zPosition="0" orientationLatitude="1.570796370506" attractorType="radial" falloffDistance="0" falloff="Inf" orientationLongitude="-1.570796370506" position="0 0">
+		<stiffness type="integer" value="1"/>
+		<radius type="integer" value="0"/>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	  </CAEmitterCell>
+	</emitterCells>
+	<scriptComponents/>
+	<animations>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="1.224171539961" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5557324840764"/>
+	      <real value="0.6371656050955"/>
+	      <real value="0.9312420382166"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	      <integer value="1"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <animation type="CAKeyframeAnimation" keyPath="emitterPosition.x" beginTime="0.676" duration="0.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="-33"/>
+	    </values>
+	  </animation>
+	</animations>
+      </CAEmitterLayer>
+      <CAEmitterLayer emitterSize="16 16" renderMode="maximum" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" beginTime="2.366017931913" bounds="0 0 60 60" contentsFormat="RGBA8" hidden="0" name=" dsgvsfgs 1" opacity="0" position="224 164" transform="rotate(110deg) scale(0.86, 0.86, 1)">
+	<emitterCells>
+	  <CAEmitterCell alphaRange="0" birthRate="100" blueRange="0" emissionLatitude="0" emissionLongitude="0" emissionRange="0" greenRange="0" lifetime="0.3000000119209" name="Cell 2" redRange="0" scale="1" velocity="0" velocityRange="0" xAcceleration="0">
+	    <contents type="CGImage" src="assets/Blue.png"/>
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="0">
+		<values>
+		  <real value="0.35"/>
+		  <integer value="0"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" keyPath="scale" additive="1">
+		<values>
+		  <integer value="1"/>
+		  <real value="0.9800000190735"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="wave" name="wave" enabled="0" force="99999 0 0" frequency="20"/>
+	      <CAEmitterBehavior behavior="wave" name="wave 2" enabled="0" force="0 99999 0" frequency="19"/>
+	      <CAEmitterBehavior behavior="attractor" name="attractor" enabled="0" position="0 0" orientationLongitude="-1.570796370506" falloff="Inf" falloffDistance="0" attractorType="radial" orientationLatitude="1.570796370506" zPosition="0">
+		<radius type="integer" value="0"/>
+		<stiffness type="integer" value="1"/>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	  </CAEmitterCell>
+	</emitterCells>
+	<scriptComponents/>
+	<animations>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1e-100" duration="1.224171539961" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5557324840764"/>
+	      <real value="0.6371656050955"/>
+	      <real value="0.9312420382166"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	      <integer value="1"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	  <animation type="CAKeyframeAnimation" keyPath="emitterPosition.x" beginTime="0.676" duration="0.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <values>
+	      <integer value="0"/>
+	      <integer value="-33"/>
+	    </values>
+	  </animation>
+	</animations>
+      </CAEmitterLayer>
+      <CATextLayer alignmentMode="center" fontSize="34" tracking="0" embedded="0" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0.5 1" bounds="0 0 250 43" contentsFormat="RGBAh" name="Paste" position="233 86.25">
+	<font type="string" value=".SFUIText-Semibold"/>
+	<string type="string" value="Paste"/>
+	<scriptComponents/>
+	<animations>
+	  <animation type="CAKeyframeAnimation" keyPath="transform.scale.xy" beginTime="3.35" duration="0.2333333333333" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <real value="0.5"/>
+	      <real value="1.15"/>
+	      <integer value="1"/>
+	    </values>
+	  </animation>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="3.35" duration="1.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.1666666666667"/>
+	      <real value="0.7857142857143"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0 0.83333 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.5"/>
+	      <real value="0.5"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	</animations>
+      </CATextLayer>
+      <CATextLayer alignmentMode="center" fontSize="34" tracking="0" embedded="0" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0.5 1" bounds="0 0 250 43" contentsFormat="RGBAh" name="Copy" position="233 86.25">
+	<font type="string" value=".SFUIText-Semibold"/>
+	<string type="string" value="Copy"/>
+	<scriptComponents/>
+	<animations>
+	  <animation type="CAKeyframeAnimation" keyPath="transform.scale.xy" beginTime="1" duration="0.2333333333333" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.5"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	    </timingFunctions>
+	    <values>
+	      <real value="0.5"/>
+	      <real value="1.15"/>
+	      <integer value="1"/>
+	    </values>
+	  </animation>
+	  <p key="animation-1" type="CAKeyframeAnimation" keyPath="opacity" beginTime="1" duration="1.4" fillMode="both" removedOnCompletion="0">
+	    <keyTimes>
+	      <integer value="0"/>
+	      <real value="0.1666666666667"/>
+	      <real value="0.7857142857143"/>
+	      <integer value="1"/>
+	    </keyTimes>
+	    <timingFunctions>
+	      <CAMediaTimingFunction value="0.33333 0 0.66667 1"/>
+	      <CAMediaTimingFunction value="linear"/>
+	      <CAMediaTimingFunction value="0.16667 0 0.83333 1"/>
+	    </timingFunctions>
+	    <values>
+	      <integer value="0"/>
+	      <real value="0.5"/>
+	      <real value="0.5"/>
+	      <integer value="0"/>
+	    </values>
+	  </p>
+	</animations>
+      </CATextLayer>
+    </sublayers>
+  </CALayer>
+</caml>

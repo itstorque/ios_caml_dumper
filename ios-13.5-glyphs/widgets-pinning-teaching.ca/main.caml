@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 63 51" contentsFormat="RGBA8" name="Root Layer" position="31.5 25.5">
+    <backgroundColor opacity="0" value="0 0 0"/>
+    <sublayers>
+      <CATransformLayer id="materials" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 63 51" contentsFormat="RGBA8" hidden="0" name="materials" position="31.5 25.5">
+	<backgroundColor opacity="0" value="0 0 0"/>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 63 51" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="12" masksToBounds="1" name="clip" position="31.5 25.5">
+	    <sublayers>
+	      <CAGradientLayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 63 51" contentsFormat="RGBA8" continuousCorners="1" name="background" position="31.5 25.5">
+		<colors>
+		  <CGColor value="0.2417 0.5173 0.8186"/>
+		  <CGColor value="0.09371 0.3662 0.6005"/>
+		</colors>
+	      </CAGradientLayer>
+	      <CALayer allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="8 31.975006103516 47 11" contentsFormat="RGBA8" name="dock" position="31.5 37.475006103516">
+		<sublayers>
+		  <CALayer id="#7" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 47 11" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="4" name="dock material" position="31.5 37.475006103516">
+		    <backgroundColor opacity="0.25" value="1 1 1"/>
+		  </CALayer>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.3451 0.9451 0.451" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="13.5 37.5"/>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="1 1 1" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="22.5 37.5"/>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.102 0.8078 0.9882" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="31.5 37.5"/>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="1 0.6118 0.2471" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="40.5 37.5"/>
+		  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.7137 0.4471 0.9882" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="49.5 37.5"/>
+		</sublayers>
+	      </CALayer>
+	      <CATransformLayer id="pages" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 63 51" contentsFormat="RGBA8" hidden="0" name="pages" position="31.5 25.5">
+		<sublayers>
+		  <CATransformLayer id="page 1" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 63 51" contentsFormat="RGBA8" hidden="0" name="page 1" position="31.5 25.5">
+		    <sublayers>
+		      <CALayer id="#5" allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="10 24 15 19" contentsFormat="RGBA8" name="widgets column" position="-8.5 17.5">
+			<sublayers>
+			  <CALayer id="#8" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 15 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="widget" position="17.5 27.5">
+			    <backgroundColor opacity="0.25" value="1 1 1"/>
+			  </CALayer>
+			  <CALayer id="#9" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 15 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="widget" position="17.5 39.5">
+			    <backgroundColor opacity="0.25" value="1 1 1"/>
+			  </CALayer>
+			</sublayers>
+		      </CALayer>
+		      <CALayer id="#4" allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="10 24 7 19" contentsFormat="RGBA8" hidden="0" name="apps column 1" position="13.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.8471 0.8392 0.8" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="13.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.102 0.749 0.9804" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="13.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		      <CALayer id="#3" allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="22 24 7 19" contentsFormat="RGBA8" name="apps column 2" position="25.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.9922 0.3098 0.3882" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="25.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="1 0.7608 0" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="25.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		      <CALayer id="#2" allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="34 24 7 19" contentsFormat="RGBA8" name="apps column 3" position="37.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.7137 0.4471 0.9882" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="37.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.2392 0.851 0.6471" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="37.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		      <CALayer id="#1" allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="46 24 7 19" contentsFormat="RGBA8" name="apps column 4" position="49.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.698 0.8196 0.2157" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="49.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.9725 0.2078 0.1686" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="49.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		    </sublayers>
+		    <states>
+		      <LKState name="unsquished"/>
+		      <LKState name="squished">
+			<elements>
+			  <LKStateSetValue targetId="#1" keyPath="position">
+			    <value type="CGPoint" value="53.5 17.5"/>
+			  </LKStateSetValue>
+			  <LKStateSetValue targetId="#2" keyPath="position">
+			    <value type="CGPoint" value="44.5 17.5"/>
+			  </LKStateSetValue>
+			  <LKStateSetValue targetId="#3" keyPath="position">
+			    <value type="CGPoint" value="35.5 17.5"/>
+			  </LKStateSetValue>
+			  <LKStateSetValue targetId="#4" keyPath="position">
+			    <value type="CGPoint" value="26.5 17.5"/>
+			  </LKStateSetValue>
+			  <LKStateSetValue targetId="#5" keyPath="position">
+			    <value type="CGPoint" value="13.5 17.5"/>
+			  </LKStateSetValue>
+			</elements>
+		      </LKState>
+		    </states>
+		    <stateTransitions>
+		      <LKStateTransition fromState="*" toState="squished">
+			<elements>
+			  <LKStateTransitionElement key="position" targetId="#1">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#2">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#3">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#4">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#5">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			</elements>
+		      </LKStateTransition>
+		      <LKStateTransition fromState="squished" toState="*">
+			<elements>
+			  <LKStateTransitionElement key="position" targetId="#1">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#2">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#3">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#4">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			  <LKStateTransitionElement key="position" targetId="#5">
+			    <animation type="CASpringAnimation" damping="17" stiffness="130" keyPath="position" duration="1" fillMode="backwards"/>
+			  </LKStateTransitionElement>
+			</elements>
+		      </LKStateTransition>
+		    </stateTransitions>
+		  </CATransformLayer>
+		  <CATransformLayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 63 51" contentsFormat="RGBA8" name="page 2" position="94.5 25.5">
+		    <sublayers>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="10 24 7 19" contentsFormat="RGBA8" hidden="0" name="apps column 1" position="13.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.8471 0.8392 0.8" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="13.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.102 0.749 0.9804" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="13.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="22 24 7 19" contentsFormat="RGBA8" name="apps column 2" position="25.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.9922 0.3098 0.3882" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="25.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="1 0.7608 0" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="25.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="34 24 7 19" contentsFormat="RGBA8" name="apps column 3" position="37.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.7137 0.4471 0.9882" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="37.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.2392 0.851 0.6471" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="37.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		      <CALayer allowsEdgeAntialiasing="1" allowsGroupBlending="0" allowsGroupOpacity="0" bounds="46 24 7 19" contentsFormat="RGBA8" name="apps column 4" position="49.5 17.5">
+			<sublayers>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.698 0.8196 0.2157" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="49.5 27.5"/>
+			  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.9725 0.2078 0.1686" bounds="0 0 7 7" contentsFormat="RGBA8" continuousCorners="1" cornerRadius="2" name="app" position="49.5 39.5"/>
+			</sublayers>
+		      </CALayer>
+		    </sublayers>
+		  </CATransformLayer>
+		</sublayers>
+		<states>
+		  <LKState name="page 1"/>
+		  <LKState name="page 2">
+		    <elements>
+		      <LKStateSetValue targetId="pages" keyPath="bounds.origin.x">
+			<value type="integer" value="63"/>
+		      </LKStateSetValue>
+		    </elements>
+		  </LKState>
+		</states>
+		<stateTransitions>
+		  <LKStateTransition fromState="*" toState="page 2">
+		    <elements>
+		      <LKStateTransitionElement key="bounds.origin.x" targetId="pages">
+			<animation type="CASpringAnimation" damping="27.9253" stiffness="194.9552" keyPath="bounds.origin.x" duration="1" fillMode="backwards"/>
+		      </LKStateTransitionElement>
+		    </elements>
+		  </LKStateTransition>
+		  <LKStateTransition fromState="page 2" toState="*">
+		    <elements>
+		      <LKStateTransitionElement key="bounds.origin.x" targetId="pages">
+			<animation type="CASpringAnimation" damping="27.9253" stiffness="194.9552" keyPath="bounds.origin.x" duration="1" fillMode="backwards"/>
+		      </LKStateTransitionElement>
+		    </elements>
+		  </LKStateTransition>
+		</stateTransitions>
+	      </CATransformLayer>
+	    </sublayers>
+	    <scriptComponents/>
+	  </CALayer>
+	</sublayers>
+	<scriptComponents/>
+	<states>
+	  <LKState name="light"/>
+	  <LKState name="dark">
+	    <elements>
+	      <LKStateSetValue targetId="#7" keyPath="backgroundColor">
+		<value type="CGColor" opacity="0.25" value="0 0 0"/>
+	      </LKStateSetValue>
+	      <LKStateSetValue targetId="#8" keyPath="backgroundColor">
+		<value type="CGColor" opacity="0.25" value="0 0 0"/>
+	      </LKStateSetValue>
+	      <LKStateSetValue targetId="#9" keyPath="backgroundColor">
+		<value type="CGColor" opacity="0.25" value="0 0 0"/>
+	      </LKStateSetValue>
+	    </elements>
+	  </LKState>
+	</states>
+	<stateTransitions>
+	  <LKStateTransition fromState="*" toState="dark">
+	    <elements>
+	      <LKStateTransitionElement key="backgroundColor" targetId="#7">
+		<animation type="CASpringAnimation" damping="27.9253" stiffness="194.95515" keyPath="backgroundColor" duration="0.7" fillMode="backwards"/>
+	      </LKStateTransitionElement>
+	      <LKStateTransitionElement key="backgroundColor" targetId="#8">
+		<animation type="CASpringAnimation" damping="27.9253" stiffness="194.95515" keyPath="backgroundColor" duration="0.7" fillMode="backwards"/>
+	      </LKStateTransitionElement>
+	      <LKStateTransitionElement key="backgroundColor" targetId="#9">
+		<animation type="CASpringAnimation" damping="27.9253" stiffness="194.95515" keyPath="backgroundColor" duration="0.7" fillMode="backwards"/>
+	      </LKStateTransitionElement>
+	    </elements>
+	  </LKStateTransition>
+	  <LKStateTransition fromState="dark" toState="*">
+	    <elements>
+	      <LKStateTransitionElement key="backgroundColor" targetId="#7">
+		<animation type="CASpringAnimation" damping="27.9253" stiffness="194.95515" keyPath="backgroundColor" duration="0.7" fillMode="backwards"/>
+	      </LKStateTransitionElement>
+	      <LKStateTransitionElement key="backgroundColor" targetId="#8">
+		<animation type="CASpringAnimation" damping="27.9253" stiffness="194.95515" keyPath="backgroundColor" duration="0.7" fillMode="backwards"/>
+	      </LKStateTransitionElement>
+	      <LKStateTransitionElement key="backgroundColor" targetId="#9">
+		<animation type="CASpringAnimation" damping="27.9253" stiffness="194.95515" keyPath="backgroundColor" duration="0.7" fillMode="backwards"/>
+	      </LKStateTransitionElement>
+	    </elements>
+	  </LKStateTransition>
+	</stateTransitions>
+      </CATransformLayer>
+    </sublayers>
+  </CALayer>
+</caml>

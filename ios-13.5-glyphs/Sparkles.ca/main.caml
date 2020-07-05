@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer bounds="0 0 750 1334" masksToBounds="1" name="root" position="375 667">
+    <backgroundColor opacity="0" value="1 1 1"/>
+    <sublayers>
+      <CALayer id="9" bounds="0 0 750 1334" name="9" position="375 667">
+	<sublayers>
+	  <CAGradientLayer bounds="0 0 750 1334" hidden="0" name="0" position="375 667">
+	    <colors>
+	      <CGColor value="0.1027 0.02749 0.02522"/>
+	      <CGColor value="0.3844 0.09718 0.009847"/>
+	    </colors>
+	    <locations>
+	      <integer value="0"/>
+	      <real value="0.6999999880791"/>
+	    </locations>
+	    <backgroundColor opacity="0" value="0 0 0"/>
+	  </CAGradientLayer>
+	  <CALayer bounds="0 0 750 1334" name="emitterParent" position="375 667" sublayerTransform="perspective(470.355)">
+	    <filters>
+	      <CAFilter filter="multiplyColor" name="multiplyColor" inputColor="0.3704 0.374 0.3536"/>
+	    </filters>
+	    <sublayers>
+	      <CAEmitterLayer cullMaxZ="0" cullRect="-Inf -Inf Inf Inf" emitterDepth="160" emitterPath="" emitterPosition="375 667" emitterShape="sphere" emitterSize="160 160" preservesDepth="1" renderMode="cheapAdditive" bounds="0 0 750 1334" hidden="0" name="firstEmitter" position="375 667" updateInterval="0.01666666667">
+		<emitterBehaviors>
+		  <CAEmitterBehavior behavior="attractor" name="attractor" zPosition="10" orientationLatitude="1.570796370506" attractorType="radial" falloffDistance="-500" falloff="-Inf" orientationLongitude="-1.570796370506" position="375 667">
+		    <stiffness type="integer" value="0"/>
+		    <radius type="integer" value="2000"/>
+		  </CAEmitterBehavior>
+		</emitterBehaviors>
+		<emitterCells>
+		  <CAEmitterCell alphaRange="0.8879206776619" birthRate="0" blueRange="0" blueSpeed="0" color="0.9569 0.9294 0.7882" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsFramesPerSecond="0" contentsRect="0 0 1 1" contentsScale="3.200000047684" emissionRange="0" enabled="1" greenRange="0" greenSpeed="0" lifetime="3" lifetimeRange="1.600000023842" magnificationFilter="linear" mass="1" massRange="0.6999999880791" minificationFilter="linear" minificationFilterBias="0" name="cell1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scale="1" scaleRange="0" scaleSpeed="0" spin="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0" zAcceleration="0">
+		    <contents type="CGImage" src="assets/flare00.tif"/>
+		    <emitterBehaviors>
+		      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="1">
+			<locations>
+			  <integer value="0"/>
+			  <real value="1.234567901235e-4"/>
+			  <real value="2.777777777779e-4"/>
+			  <real value="4.93827160494e-4"/>
+			  <real value="7.716049382717e-4"/>
+			  <real value="0.001111111111111"/>
+			  <real value="0.001512345679012"/>
+			  <real value="0.001975308641975"/>
+			  <real value="0.0025"/>
+			  <real value="0.003086419753086"/>
+			  <real value="0.003734567901235"/>
+			  <real value="0.004444444444444"/>
+			  <real value="0.005216049382716"/>
+			  <real value="0.006049382716049"/>
+			  <real value="0.006944444444444"/>
+			  <real value="0.007901234567901"/>
+			  <real value="0.00891975308642"/>
+			  <real value="0.01"/>
+			  <real value="0.01114197530864"/>
+			  <real value="0.01234567901235"/>
+			  <real value="0.01361111111111"/>
+			  <real value="0.01493827160494"/>
+			  <real value="0.01632716049383"/>
+			  <real value="0.01777777777778"/>
+			  <real value="0.01929012345679"/>
+			  <real value="0.02086419753086"/>
+			  <real value="0.0225"/>
+			  <real value="0.0241975308642"/>
+			  <real value="0.02595679012346"/>
+			  <real value="0.02777777777778"/>
+			  <real value="0.02966049382716"/>
+			  <real value="0.0316049382716"/>
+			  <real value="0.03361111111111"/>
+			  <real value="0.03567901234568"/>
+			  <real value="0.03780864197531"/>
+			  <real value="0.04"/>
+			  <real value="0.04225308641975"/>
+			  <real value="0.04456790123457"/>
+			  <real value="0.04694444444444"/>
+			  <real value="0.04938271604938"/>
+			  <real value="0.05188271604938"/>
+			  <real value="0.05444444444444"/>
+			  <real value="0.05706790123457"/>
+			  <real value="0.05975308641975"/>
+			  <real value="0.0625"/>
+			  <real value="0.06530864197531"/>
+			  <real value="0.06817901234568"/>
+			  <real value="0.07111111111111"/>
+			  <real value="0.07410493827161"/>
+			  <real value="0.07716049382716"/>
+			  <real value="0.08027777777778"/>
+			  <real value="0.08345679012346"/>
+			  <real value="0.0866975308642"/>
+			  <real value="0.09"/>
+			  <real value="0.09336419753086"/>
+			  <real value="0.09679012345679"/>
+			  <real value="0.1002777777778"/>
+			  <real value="0.1038271604938"/>
+			  <real value="0.1074382716049"/>
+			  <real value="0.1111111111111"/>
+			  <real value="0.1148456790123"/>
+			  <real value="0.1186419753086"/>
+			  <real value="0.1225"/>
+			  <real value="0.1264197530864"/>
+			  <real value="0.1304012345679"/>
+			  <real value="0.1344444444444"/>
+			  <real value="0.138549382716"/>
+			  <real value="0.1427160493827"/>
+			  <real value="0.1469444444444"/>
+			  <real value="0.1512345679012"/>
+			  <real value="0.1555864197531"/>
+			  <real value="0.16"/>
+			  <real value="0.164475308642"/>
+			  <real value="0.169012345679"/>
+			  <real value="0.1736111111111"/>
+			  <real value="0.1782716049383"/>
+			  <real value="0.1829938271605"/>
+			  <real value="0.1877777777778"/>
+			  <real value="0.1926234567901"/>
+			  <real value="0.1975308641975"/>
+			  <real value="0.2025"/>
+			  <real value="0.2075308641975"/>
+			  <real value="0.2126234567901"/>
+			  <real value="0.2177777777778"/>
+			  <real value="0.2229938271605"/>
+			  <real value="0.2282716049383"/>
+			  <real value="0.2336111111111"/>
+			  <real value="0.239012345679"/>
+			  <real value="0.244475308642"/>
+			  <real value="0.25"/>
+			  <real value="0.2555864197531"/>
+			  <real value="0.2612345679012"/>
+			  <real value="0.2669444444444"/>
+			  <real value="0.2727160493827"/>
+			  <real value="0.278549382716"/>
+			  <real value="0.2844444444444"/>
+			  <real value="0.2904012345679"/>
+			  <real value="0.2964197530864"/>
+			  <real value="0.3025"/>
+			  <real value="0.3086419753086"/>
+			  <real value="0.3148456790123"/>
+			  <real value="0.3211111111111"/>
+			  <real value="0.3274382716049"/>
+			  <real value="0.3338271604938"/>
+			  <real value="0.3402777777778"/>
+			  <real value="0.3467901234568"/>
+			  <real value="0.3533641975309"/>
+			  <real value="0.36"/>
+			  <real value="0.3666975308642"/>
+			  <real value="0.3734567901235"/>
+			  <real value="0.3802777777778"/>
+			  <real value="0.3871604938272"/>
+			  <real value="0.3941049382716"/>
+			  <real value="0.4011111111111"/>
+			  <real value="0.4081790123457"/>
+			  <real value="0.4153086419753"/>
+			  <real value="0.4225"/>
+			  <real value="0.4297530864198"/>
+			  <real value="0.4370679012346"/>
+			  <real value="0.4444444444444"/>
+			  <real value="0.4518827160494"/>
+			  <real value="0.4593827160494"/>
+			  <real value="0.4669444444444"/>
+			  <real value="0.4745679012346"/>
+			  <real value="0.4822530864198"/>
+			  <real value="0.49"/>
+			  <real value="0.4978086419753"/>
+			  <real value="0.5056790123457"/>
+			  <real value="0.5136111111111"/>
+			  <real value="0.5216049382716"/>
+			  <real value="0.5296604938272"/>
+			  <real value="0.5377777777778"/>
+			  <real value="0.5459567901235"/>
+			  <real value="0.5541975308642"/>
+			  <real value="0.5625"/>
+			  <real value="0.5708641975309"/>
+			  <real value="0.5792901234568"/>
+			  <real value="0.5877777777778"/>
+			  <real value="0.5963271604938"/>
+			  <real value="0.6049382716049"/>
+			  <real value="0.6136111111111"/>
+			  <real value="0.6223456790123"/>
+			  <real value="0.6311419753086"/>
+			  <real value="0.64"/>
+			  <real value="0.6489197530864"/>
+			  <real value="0.6579012345679"/>
+			  <real value="0.6669444444444"/>
+			  <real value="0.676049382716"/>
+			  <real value="0.6852160493827"/>
+			  <real value="0.6944444444444"/>
+			  <real value="0.7037345679012"/>
+			  <real value="0.7130864197531"/>
+			  <real value="0.7225"/>
+			  <real value="0.731975308642"/>
+			  <real value="0.741512345679"/>
+			  <real value="0.7511111111111"/>
+			  <real value="0.7607716049383"/>
+			  <real value="0.7704938271605"/>
+			  <real value="0.7802777777778"/>
+			  <real value="0.7901234567901"/>
+			  <real value="0.8000308641975"/>
+			  <real value="0.81"/>
+			  <real value="0.8200308641975"/>
+			  <real value="0.8301234567901"/>
+			  <real value="0.8402777777778"/>
+			  <real value="0.8504938271605"/>
+			  <real value="0.8607716049383"/>
+			  <real value="0.8711111111111"/>
+			  <real value="0.881512345679"/>
+			  <real value="0.891975308642"/>
+			  <real value="0.9025"/>
+			  <real value="0.9130864197531"/>
+			  <real value="0.9237345679012"/>
+			  <real value="0.9344444444444"/>
+			  <real value="0.9452160493827"/>
+			  <real value="0.956049382716"/>
+			  <real value="0.9669444444444"/>
+			  <real value="0.9779012345679"/>
+			  <real value="0.9889197530864"/>
+			  <integer value="1"/>
+			</locations>
+			<values>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			</values>
+		      </CAEmitterBehavior>
+		      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 3" additive="0" keyPath="scale">
+			<values>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <real value="0.9988608114848"/>
+			  <integer value="0"/>
+			  <real value="0.9987696083497"/>
+			  <integer value="0"/>
+			  <real value="0.9986711035155"/>
+			  <integer value="0"/>
+			  <real value="0.9985647124099"/>
+			  <integer value="0"/>
+			  <real value="0.9984498036602"/>
+			  <integer value="0"/>
+			  <real value="0.998325695346"/>
+			  <integer value="0"/>
+			  <real value="0.9981916509526"/>
+			  <integer value="0"/>
+			  <real value="0.998046875"/>
+			  <integer value="0"/>
+			  <real value="0.9978905083225"/>
+			  <integer value="0"/>
+			  <real value="0.9977216229696"/>
+			  <integer value="0"/>
+			  <real value="0.9975392166994"/>
+			  <integer value="0"/>
+			  <real value="0.9973422070309"/>
+			  <integer value="0"/>
+			  <real value="0.9971294248198"/>
+			  <integer value="0"/>
+			  <real value="0.9968996073204"/>
+			  <integer value="0"/>
+			  <real value="0.996651390692"/>
+			  <integer value="0"/>
+			  <real value="0.9963833019051"/>
+			  <integer value="0"/>
+			  <real value="0.99609375"/>
+			  <integer value="0"/>
+			  <real value="0.995781016645"/>
+			  <integer value="0"/>
+			  <real value="0.9954432459392"/>
+			  <integer value="0"/>
+			  <real value="0.9950784333988"/>
+			  <integer value="0"/>
+			  <real value="0.9946844140618"/>
+			  <integer value="0"/>
+			  <real value="0.9942588496395"/>
+			  <integer value="0"/>
+			  <real value="0.9937992146407"/>
+			  <integer value="0"/>
+			  <real value="0.993302781384"/>
+			  <integer value="0"/>
+			  <real value="0.9927666038103"/>
+			  <integer value="0"/>
+			  <real value="0.9921875"/>
+			  <integer value="0"/>
+			  <real value="0.9915620332899"/>
+			  <integer value="0"/>
+			  <real value="0.9908864918783"/>
+			  <integer value="0"/>
+			  <real value="0.9901568667977"/>
+			  <integer value="0"/>
+			  <real value="0.9893688281236"/>
+			  <integer value="0"/>
+			  <real value="0.9885176992791"/>
+			  <integer value="0"/>
+			  <real value="0.9875984292815"/>
+			  <integer value="0"/>
+			  <real value="0.9866055627679"/>
+			  <integer value="0"/>
+			  <real value="0.9855332076205"/>
+			  <integer value="0"/>
+			  <real value="0.984375"/>
+			  <integer value="0"/>
+			  <real value="0.9831240665798"/>
+			  <integer value="0"/>
+			  <real value="0.9817729837566"/>
+			  <integer value="0"/>
+			  <real value="0.9803137335954"/>
+			  <integer value="0"/>
+			  <real value="0.9787376562473"/>
+			  <integer value="0"/>
+			  <real value="0.9770353985582"/>
+			  <integer value="0"/>
+			  <real value="0.975196858563"/>
+			  <integer value="0"/>
+			  <real value="0.9732111255358"/>
+			  <integer value="0"/>
+			  <real value="0.971066415241"/>
+			  <integer value="0"/>
+			  <real value="0.96875"/>
+			  <integer value="0"/>
+			  <real value="0.9662481331596"/>
+			  <integer value="0"/>
+			  <real value="0.9635459675132"/>
+			  <integer value="0"/>
+			  <real value="0.9606274671908"/>
+			  <integer value="0"/>
+			  <real value="0.9574753124946"/>
+			  <integer value="0"/>
+			  <real value="0.9540707971164"/>
+			  <integer value="0"/>
+			  <real value="0.950393717126"/>
+			  <integer value="0"/>
+			  <real value="0.9464222510717"/>
+			  <integer value="0"/>
+			  <real value="0.942132830482"/>
+			  <integer value="0"/>
+			  <real value="0.9375"/>
+			  <integer value="0"/>
+			  <real value="0.9324962663192"/>
+			  <integer value="0"/>
+			  <real value="0.9270919350265"/>
+			  <integer value="0"/>
+			  <real value="0.9212549343816"/>
+			  <integer value="0"/>
+			  <real value="0.9149506249891"/>
+			  <integer value="0"/>
+			  <real value="0.9081415942328"/>
+			  <integer value="0"/>
+			  <real value="0.900787434252"/>
+			  <integer value="0"/>
+			  <real value="0.8928445021434"/>
+			  <integer value="0"/>
+			  <real value="0.8842656609641"/>
+			  <integer value="0"/>
+			  <real value="0.875"/>
+			  <integer value="0"/>
+			  <real value="0.8649925326385"/>
+			  <integer value="0"/>
+			  <real value="0.854183870053"/>
+			  <integer value="0"/>
+			  <real value="0.8425098687631"/>
+			  <integer value="0"/>
+			  <real value="0.8299012499782"/>
+			  <integer value="0"/>
+			  <real value="0.8162831884656"/>
+			  <integer value="0"/>
+			  <real value="0.801574868504"/>
+			  <integer value="0"/>
+			  <real value="0.7856890042867"/>
+			  <integer value="0"/>
+			  <real value="0.7685313219282"/>
+			  <integer value="0"/>
+			  <real value="0.75"/>
+			  <integer value="0"/>
+			  <real value="0.7299850652769"/>
+			  <integer value="0"/>
+			  <real value="0.708367740106"/>
+			  <integer value="0"/>
+			  <real value="0.6850197375263"/>
+			  <integer value="0"/>
+			  <real value="0.6598024999564"/>
+			  <integer value="0"/>
+			  <real value="0.6325663769311"/>
+			  <integer value="0"/>
+			  <real value="0.603149737008"/>
+			  <integer value="0"/>
+			  <real value="0.5713780085735"/>
+			  <integer value="0"/>
+			  <real value="0.5370626438564"/>
+			  <integer value="0"/>
+			  <real value="0.5"/>
+			  <integer value="0"/>
+			  <real value="0.4599701305538"/>
+			  <integer value="0"/>
+			  <real value="0.4167354802119"/>
+			  <integer value="0"/>
+			  <real value="0.3700394750526"/>
+			  <integer value="0"/>
+			  <real value="0.3196049999128"/>
+			  <integer value="0"/>
+			  <real value="0.2651327538622"/>
+			  <integer value="0"/>
+			  <real value="0.2062994740159"/>
+			  <integer value="0"/>
+			  <real value="0.1427560171469"/>
+			  <integer value="0"/>
+			  <real value="0.07412528771271"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			</values>
+			<locations>
+			  <real value="0.7000092592593"/>
+			  <real value="0.700037037037"/>
+			  <real value="0.7000833333333"/>
+			  <real value="0.7001481481481"/>
+			  <real value="0.7002314814815"/>
+			  <real value="0.7003333333333"/>
+			  <real value="0.7004537037037"/>
+			  <real value="0.7005925925926"/>
+			  <real value="0.70075"/>
+			  <real value="0.7009259259259"/>
+			  <real value="0.7011203703704"/>
+			  <real value="0.7013333333333"/>
+			  <real value="0.7015648148148"/>
+			  <real value="0.7018148148148"/>
+			  <real value="0.7020833333333"/>
+			  <real value="0.7023703703704"/>
+			  <real value="0.7026759259259"/>
+			  <real value="0.703"/>
+			  <real value="0.7033425925926"/>
+			  <real value="0.7037037037037"/>
+			  <real value="0.7040833333333"/>
+			  <real value="0.7044814814815"/>
+			  <real value="0.7048981481481"/>
+			  <real value="0.7053333333333"/>
+			  <real value="0.705787037037"/>
+			  <real value="0.7062592592593"/>
+			  <real value="0.70675"/>
+			  <real value="0.7072592592593"/>
+			  <real value="0.707787037037"/>
+			  <real value="0.7083333333333"/>
+			  <real value="0.7088981481481"/>
+			  <real value="0.7094814814815"/>
+			  <real value="0.7100833333333"/>
+			  <real value="0.7107037037037"/>
+			  <real value="0.7113425925926"/>
+			  <real value="0.712"/>
+			  <real value="0.7126759259259"/>
+			  <real value="0.7133703703704"/>
+			  <real value="0.7140833333333"/>
+			  <real value="0.7148148148148"/>
+			  <real value="0.7155648148148"/>
+			  <real value="0.7163333333333"/>
+			  <real value="0.7171203703704"/>
+			  <real value="0.7179259259259"/>
+			  <real value="0.71875"/>
+			  <real value="0.7195925925926"/>
+			  <real value="0.7204537037037"/>
+			  <real value="0.7213333333333"/>
+			  <real value="0.7222314814815"/>
+			  <real value="0.7231481481481"/>
+			  <real value="0.7240833333333"/>
+			  <real value="0.725037037037"/>
+			  <real value="0.7260092592593"/>
+			  <real value="0.727"/>
+			  <real value="0.7280092592593"/>
+			  <real value="0.729037037037"/>
+			  <real value="0.7300833333333"/>
+			  <real value="0.7311481481481"/>
+			  <real value="0.7322314814815"/>
+			  <real value="0.7333333333333"/>
+			  <real value="0.7344537037037"/>
+			  <real value="0.7355925925926"/>
+			  <real value="0.73675"/>
+			  <real value="0.7379259259259"/>
+			  <real value="0.7391203703704"/>
+			  <real value="0.7403333333333"/>
+			  <real value="0.7415648148148"/>
+			  <real value="0.7428148148148"/>
+			  <real value="0.7440833333333"/>
+			  <real value="0.7453703703704"/>
+			  <real value="0.7466759259259"/>
+			  <real value="0.748"/>
+			  <real value="0.7493425925926"/>
+			  <real value="0.7507037037037"/>
+			  <real value="0.7520833333333"/>
+			  <real value="0.7534814814815"/>
+			  <real value="0.7548981481481"/>
+			  <real value="0.7563333333333"/>
+			  <real value="0.757787037037"/>
+			  <real value="0.7592592592593"/>
+			  <real value="0.76075"/>
+			  <real value="0.7622592592593"/>
+			  <real value="0.763787037037"/>
+			  <real value="0.7653333333333"/>
+			  <real value="0.7668981481481"/>
+			  <real value="0.7684814814815"/>
+			  <real value="0.7700833333333"/>
+			  <real value="0.7717037037037"/>
+			  <real value="0.7733425925926"/>
+			  <real value="0.775"/>
+			  <real value="0.7766759259259"/>
+			  <real value="0.7783703703704"/>
+			  <real value="0.7800833333333"/>
+			  <real value="0.7818148148148"/>
+			  <real value="0.7835648148148"/>
+			  <real value="0.7853333333333"/>
+			  <real value="0.7871203703704"/>
+			  <real value="0.7889259259259"/>
+			  <real value="0.79075"/>
+			  <real value="0.7925925925926"/>
+			  <real value="0.7944537037037"/>
+			  <real value="0.7963333333333"/>
+			  <real value="0.7982314814815"/>
+			  <real value="0.8001481481481"/>
+			  <real value="0.8020833333333"/>
+			  <real value="0.804037037037"/>
+			  <real value="0.8060092592593"/>
+			  <real value="0.808"/>
+			  <real value="0.8100092592593"/>
+			  <real value="0.812037037037"/>
+			  <real value="0.8140833333333"/>
+			  <real value="0.8161481481481"/>
+			  <real value="0.8182314814815"/>
+			  <real value="0.8203333333333"/>
+			  <real value="0.8224537037037"/>
+			  <real value="0.8245925925926"/>
+			  <real value="0.82675"/>
+			  <real value="0.8289259259259"/>
+			  <real value="0.8311203703704"/>
+			  <real value="0.8333333333333"/>
+			  <real value="0.8355648148148"/>
+			  <real value="0.8378148148148"/>
+			  <real value="0.8400833333333"/>
+			  <real value="0.8423703703704"/>
+			  <real value="0.8446759259259"/>
+			  <real value="0.847"/>
+			  <real value="0.8493425925926"/>
+			  <real value="0.8517037037037"/>
+			  <real value="0.8540833333333"/>
+			  <real value="0.8564814814815"/>
+			  <real value="0.8588981481481"/>
+			  <real value="0.8613333333333"/>
+			  <real value="0.863787037037"/>
+			  <real value="0.8662592592593"/>
+			  <real value="0.86875"/>
+			  <real value="0.8712592592593"/>
+			  <real value="0.873787037037"/>
+			  <real value="0.8763333333333"/>
+			  <real value="0.8788981481481"/>
+			  <real value="0.8814814814815"/>
+			  <real value="0.8840833333333"/>
+			  <real value="0.8867037037037"/>
+			  <real value="0.8893425925926"/>
+			  <real value="0.892"/>
+			  <real value="0.8946759259259"/>
+			  <real value="0.8973703703704"/>
+			  <real value="0.9000833333333"/>
+			  <real value="0.9028148148148"/>
+			  <real value="0.9055648148148"/>
+			  <real value="0.9083333333333"/>
+			  <real value="0.9111203703704"/>
+			  <real value="0.9139259259259"/>
+			  <real value="0.91675"/>
+			  <real value="0.9195925925926"/>
+			  <real value="0.9224537037037"/>
+			  <real value="0.9253333333333"/>
+			  <real value="0.9282314814815"/>
+			  <real value="0.9311481481481"/>
+			  <real value="0.9340833333333"/>
+			  <real value="0.937037037037"/>
+			  <real value="0.9400092592593"/>
+			  <real value="0.943"/>
+			  <real value="0.9460092592593"/>
+			  <real value="0.949037037037"/>
+			  <real value="0.9520833333333"/>
+			  <real value="0.9551481481481"/>
+			  <real value="0.9582314814815"/>
+			  <real value="0.9613333333333"/>
+			  <real value="0.9644537037037"/>
+			  <real value="0.9675925925926"/>
+			  <real value="0.97075"/>
+			  <real value="0.9739259259259"/>
+			  <real value="0.9771203703704"/>
+			  <real value="0.9803333333333"/>
+			  <real value="0.9835648148148"/>
+			  <real value="0.9868148148148"/>
+			  <real value="0.9900833333333"/>
+			  <real value="0.9933703703704"/>
+			  <real value="0.9966759259259"/>
+			  <integer value="1"/>
+			</locations>
+		      </CAEmitterBehavior>
+		    </emitterBehaviors>
+		    <emitterCells>
+		      <CAEmitterCell alphaRange="1" birthRate="30" blueRange="0" blueSpeed="0" color="0.9569 0.9294 0.7882" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsFramesPerSecond="0" contentsRect="0 0 1 1" contentsScale="3" emissionRange="0" enabled="1" greenRange="0" greenSpeed="0" lifetime="0.05000000074506" magnificationFilter="linear" mass="3" massRange="0.6999999880791" minificationFilter="linear" minificationFilterBias="0" name="sub cell 1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scale="1" scaleRange="1.274639423077" scaleSpeed="-0.8000000119209" spin="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0" zAcceleration="0">
+			<contents type="CGImage" src="assets/image.png"/>
+			<emitterBehaviors>
+			  <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="0">
+			    <values>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			    </values>
+			  </CAEmitterBehavior>
+			  <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" additive="0" keyPath="scale">
+			    <values>
+			      <integer value="1"/>
+			      <integer value="1"/>
+			      <real value="0.8000000119209"/>
+			      <integer value="1"/>
+			      <real value="0.6999999880791"/>
+			      <integer value="1"/>
+			      <real value="0.5"/>
+			      <integer value="0"/>
+			      <real value="0.3000000119209"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			    </values>
+			    <locations>
+			      <real value="0.8999999761581"/>
+			      <real value="0.910000026226"/>
+			      <real value="0.9200000166893"/>
+			      <real value="0.9300000071526"/>
+			      <real value="0.9399999976158"/>
+			      <real value="0.9499999880791"/>
+			      <real value="0.9599999785423"/>
+			      <real value="0.9700000286102"/>
+			      <real value="0.9800000190735"/>
+			      <real value="0.9900000095367"/>
+			      <integer value="1"/>
+			    </locations>
+			  </CAEmitterBehavior>
+			</emitterBehaviors>
+		      </CAEmitterCell>
+		      <CAEmitterCell alphaRange="0.8158053159714" birthRate="4" blueRange="0" blueSpeed="0" color="0.9569 0.9294 0.7882" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsFramesPerSecond="0" contentsRect="0 0 1 1" contentsScale="0.6400000527498" emissionRange="0" enabled="1" greenRange="0" greenSpeed="0" lifetime="1" magnificationFilter="linear" mass="3" massRange="0.6999999880791" minificationFilter="linear" minificationFilterBias="0" name="sub cell 2" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scale="1" scaleRange="0" scaleSpeed="-0.8000000119209" spin="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0" zAcceleration="0">
+			<contents type="CGImage" src="assets/dust.tif"/>
+			<emitterBehaviors>
+			  <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="color.alpha">
+			    <values>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			      <integer value="1"/>
+			      <integer value="0"/>
+			    </values>
+			  </CAEmitterBehavior>
+			</emitterBehaviors>
+		      </CAEmitterCell>
+		    </emitterCells>
+		  </CAEmitterCell>
+		</emitterCells>
+	      </CAEmitterLayer>
+	      <CAEmitterLayer cullMinZ="0" cullRect="-8.988465674312e307 -8.988465674312e307 1.797693134862e308 Inf" emitterDepth="160" emitterPath="" emitterPosition="375 667" emitterShape="sphere" emitterSize="160 160" preservesDepth="1" renderMode="cheapAdditive" bounds="0 0 160 160" hidden="0" name="secondEmitter" position="850 1500" updateInterval="0.01666666667">
+		<emitterBehaviors>
+		  <CAEmitterBehavior behavior="attractor" name="attractor" zPosition="-10" orientationLatitude="1.570796370506" attractorType="radial" falloffDistance="0" falloff="-290" orientationLongitude="-1.570796370506" position="8000 8000">
+		    <stiffness type="integer" value="10"/>
+		    <radius type="integer" value="600"/>
+		  </CAEmitterBehavior>
+		</emitterBehaviors>
+		<emitterCells>
+		  <CAEmitterCell alphaRange="0.6169999837875" birthRate="0" blueRange="0" blueSpeed="0" color="0.9569 0.9294 0.7882" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsFramesPerSecond="0" contentsRect="0 0 1 1" contentsScale="1.700000047684" emissionRange="0" enabled="1" greenRange="0" greenSpeed="0" lifetime="3" lifetimeRange="2" magnificationFilter="linear" mass="0.5" massRange="0.6999999880791" minificationFilter="linear" minificationFilterBias="0" name="cell1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scale="1" scaleRange="0" scaleSpeed="0" spin="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0" zAcceleration="0">
+		    <contents type="CGImage" src="assets/flare.tif"/>
+		    <emitterBehaviors>
+		      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="color.alpha">
+			<values>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			</values>
+		      </CAEmitterBehavior>
+		    </emitterBehaviors>
+		  </CAEmitterCell>
+		  <CAEmitterCell alphaRange="0.6169999837875" birthRate="0" blueRange="0" blueSpeed="0" color="0.9569 0.9294 0.7882" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsFramesPerSecond="0" contentsRect="0 0 1 1" contentsScale="1.600000023842" emissionRange="0" enabled="1" greenRange="0" greenSpeed="0" lifetime="3" lifetimeRange="2" magnificationFilter="linear" mass="0.5" massRange="0.6999999880791" minificationFilter="linear" minificationFilterBias="0" name="cell2" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scale="1" scaleRange="0" scaleSpeed="0" spin="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0" zAcceleration="0">
+		    <contents type="CGImage" src="assets/flare.tif"/>
+		    <emitterBehaviors>
+		      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="0">
+			<values>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			</values>
+		      </CAEmitterBehavior>
+		    </emitterBehaviors>
+		  </CAEmitterCell>
+		</emitterCells>
+	      </CAEmitterLayer>
+	      <CAEmitterLayer cullMinZ="0" cullRect="-8.988465674312e307 -8.988465674312e307 1.797693134862e308 Inf" emitterDepth="160" emitterPath="" emitterPosition="375 667" emitterShape="sphere" emitterSize="160 160" preservesDepth="1" renderMode="cheapAdditive" bounds="0 0 160 160" hidden="0" name="thirdEmitter" position="850 1500" updateInterval="0.01666666667">
+		<emitterBehaviors>
+		  <CAEmitterBehavior behavior="attractor" name="attractor" position="8000 8000" orientationLongitude="-1.570796370506" falloff="-290" falloffDistance="0" attractorType="radial" orientationLatitude="1.570796370506" zPosition="-10">
+		    <radius type="integer" value="600"/>
+		    <stiffness type="integer" value="10"/>
+		  </CAEmitterBehavior>
+		</emitterBehaviors>
+		<emitterCells>
+		  <CAEmitterCell alphaRange="0.6169999837875" birthRate="0" blueRange="0" blueSpeed="0" color="0.9569 0.9294 0.7882" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsFramesPerSecond="0" contentsRect="0 0 1 1" contentsScale="0.8000000119209" emissionRange="0" enabled="1" greenRange="0" greenSpeed="0" lifetime="3" lifetimeRange="2" magnificationFilter="linear" mass="0.5" massRange="0.6999999880791" minificationFilter="linear" minificationFilterBias="0" name="cell1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scale="1" scaleRange="0.8999999761581" scaleSpeed="0" spin="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0" zAcceleration="0">
+		    <contents type="CGImage" src="assets/flare.tif"/>
+		    <emitterBehaviors>
+		      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="0">
+			<values>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			</values>
+		      </CAEmitterBehavior>
+		    </emitterBehaviors>
+		  </CAEmitterCell>
+		  <CAEmitterCell alphaRange="0.6169999837875" birthRate="0" blueRange="0" blueSpeed="0" color="0.9569 0.9294 0.7882" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsFramesPerSecond="0" contentsRect="0 0 1 1" contentsScale="0.6999999880791" emissionRange="0" enabled="1" greenRange="0" greenSpeed="0" lifetime="3" lifetimeRange="2" magnificationFilter="linear" mass="0.5" massRange="0.6999999880791" minificationFilter="linear" minificationFilterBias="0" name="cell2" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scale="1" scaleRange="0.8999999761581" scaleSpeed="0" spin="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0" zAcceleration="0">
+		    <contents type="CGImage" src="assets/flare.tif"/>
+		    <emitterBehaviors>
+		      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="color.alpha">
+			<values>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			  <integer value="1"/>
+			  <integer value="0"/>
+			</values>
+		      </CAEmitterBehavior>
+		    </emitterBehaviors>
+		  </CAEmitterCell>
+		</emitterCells>
+	      </CAEmitterLayer>
+	    </sublayers>
+	  </CALayer>
+	  <CALayer bounds="0 0 750 1334" name="2" position="375 667"/>
+	  <CALayer bounds="0 0 750 1334" name="3" position="375 667"/>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+  </CALayer>
+</caml>

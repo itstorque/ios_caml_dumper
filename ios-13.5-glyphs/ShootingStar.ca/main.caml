@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer backgroundColor="0 0 0" bounds="0 0 750 1334" name="root" position="375 667" sublayerTransform="perspective(2216.06)">
+    <sublayers>
+      <CALayer id="0" bounds="0 0 750 1334" hidden="0" masksToBounds="1" name="0" position="375 667">
+	<sublayers>
+	  <CAGradientLayer bounds="0 0 750 1334" hidden="0" name="0" opacity="0" position="375 667">
+	    <colors>
+	      <CGColor opacity="0.6701" value="0.08003 0.1517 0.4589"/>
+	      <CGColor opacity="0" value="0.1526 0.1517 0.3878"/>
+	    </colors>
+	    <locations>
+	      <integer value="0"/>
+	      <real value="0.75"/>
+	    </locations>
+	  </CAGradientLayer>
+	  <CAEmitterLayer emitterDepth="200" emitterPosition="187.5 333.5" emitterShape="cuboid" emitterSize="200 200" emitterZPosition="-900" preservesDepth="1" renderMode="cheapAdditive" bounds="0 0 750 1334" hidden="0" name="1" opacity="0" position="375 667" updateInterval="0.01666666667">
+	    <emitterCells>
+	      <CAEmitterCell alphaRange="1" alphaSpeed="0" birthRate="400" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsRect="0 0 1 1" contentsScale="4" emissionLatitude="0" emissionRange="6.283185482025" enabled="1" lifetime="4" lifetimeRange="2" mass="1" massRange="0" name="cell1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0" redSpeed="0" rotation="0" rotationRange="0" scaleRange="0" scaleSpeed="0" spinRange="0" velocity="0" velocityRange="0" xAcceleration="0" yAcceleration="0">
+		<color opacity="0.75" value="0.3439 0.7309 1"/>
+		<contents type="CGImage" src="assets/stars.png"/>
+		<emitterBehaviors>
+		  <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" keyPath="color.alpha" additive="0">
+		    <locations>
+		      <integer value="0"/>
+		      <real value="0.1495643028846"/>
+		      <real value="0.8994891826923"/>
+		      <integer value="1"/>
+		    </locations>
+		    <values>
+		      <integer value="0"/>
+		      <integer value="1"/>
+		      <integer value="1"/>
+		      <integer value="0"/>
+		    </values>
+		  </CAEmitterBehavior>
+		</emitterBehaviors>
+	      </CAEmitterCell>
+	    </emitterCells>
+	  </CAEmitterLayer>
+	  <CAEmitterLayer renderMode="cheapAdditive" bounds="0 0 750 1334" hidden="0" name="2" position="375 667" updateInterval="0.01666666667">
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" enabled="0" keyPath="scale" additive="1">
+		<values>
+		  <integer value="0"/>
+		  <integer value="0"/>
+		</values>
+	      </CAEmitterBehavior>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" additive="0" keyPath="mass">
+		<values>
+		  <integer value="20"/>
+		  <integer value="100"/>
+		</values>
+		<locations>
+		  <real value="0.6255258413462"/>
+		  <integer value="1"/>
+		</locations>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	    <emitterCells>
+	      <CAEmitterCell alphaRange="0.5" alphaSpeed="-0.5994591116905" birthRate="8000" contentsFrameCount="1" contentsFrameMode="single" contentsFramesPerRow="1" contentsRect="0 0 1 1" contentsScale="2.400000095367" emissionLatitude="0" emissionRange="6.283185482025" enabled="1" lifetime="3" lifetimeRange="1.5" mass="1" massRange="0" name="cell1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0.3000000119209" redSpeed="0.2399999946356" rotation="0" rotationRange="0" scaleRange="1.536057692308" scaleSpeed="-0.05000000074506" speed="1" spinRange="0" velocity="0" velocityRange="30" xAcceleration="0" yAcceleration="0">
+		<color opacity="0.6396" value="0.0168 0.1984 1"/>
+		<contents type="CGImage" src="assets/sparkle.png"/>
+		<emitterBehaviors>
+		  <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife" additive="0" keyPath="mass">
+		    <values>
+		      <integer value="1"/>
+		      <integer value="0"/>
+		    </values>
+		    <locations>
+		      <real value="0.7795973557692"/>
+		      <integer value="1"/>
+		    </locations>
+		  </CAEmitterBehavior>
+		</emitterBehaviors>
+	      </CAEmitterCell>
+	    </emitterCells>
+	  </CAEmitterLayer>
+	  <CAEmitterLayer emitterMode="points" emitterPosition="375 667" renderMode="cheapAdditive" bounds="0 0 750 1334" hidden="0" name="3" position="375 667" transform="scale(0, 0, 1)" updateInterval="0.01666666667">
+	    <emitterBehaviors>
+	      <CAEmitterBehavior behavior="valueOverLife" name="valueOverLife 2" enabled="0" additive="1" keyPath="scale">
+		<values>
+		  <integer value="0"/>
+		  <integer value="2"/>
+		  <integer value="0"/>
+		  <integer value="3"/>
+		  <integer value="0"/>
+		  <integer value="2"/>
+		  <integer value="0"/>
+		</values>
+		<locations>
+		  <integer value="0"/>
+		  <real value="0.1790865384615"/>
+		  <real value="0.3239182692308"/>
+		  <real value="0.5547626201923"/>
+		  <real value="0.75"/>
+		  <real value="0.8282752403846"/>
+		  <integer value="1"/>
+		</locations>
+	      </CAEmitterBehavior>
+	    </emitterBehaviors>
+	    <emitterCells>
+	      <CAEmitterCell alphaRange="0" alphaSpeed="-0.3804086446762" birthRate="145" contentsFrameCount="2" contentsFrameMode="random" contentsFramesPerRow="2" contentsRect="0 0 1 1" contentsScale="0.8055288699957" emissionLatitude="0" emissionRange="0" enabled="1" lifetime="2" name="cell1" orientationLatitude="0" orientationLongitude="0" orientationRange="0" particleType="sprite" redRange="0.2000000029802" redSpeed="0.2399999946356" rotation="0" rotationRange="0" scale="1" scaleRange="3.082000017166" scaleSpeed="0.4300000071526" spinRange="4.712389111519">
+		<color opacity="0.5975" value="0.0168 0.1984 1"/>
+		<contents type="CGImage" src="assets/lensFlare.png"/>
+	      </CAEmitterCell>
+	    </emitterCells>
+	  </CAEmitterLayer>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+  </CALayer>
+</caml>

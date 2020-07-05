@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caml xmlns="http://www.apple.com/CoreAnimation/1.0">
+  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 64 64" contentsFormat="RGBA8" name="Root Layer" position="32 32">
+    <sublayers>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" backgroundColor="0.3529 0.7843 0.9804" bounds="0 0 64 64" contentsFormat="RGBA8" continuousCorners="0" cornerRadius="32" hidden="1" name="Platter" position="32 32"/>
+      <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 68 32" contentsFormat="RGBA8" continuousCorners="1" hidden="0" masksToBounds="0" name="Mask" position="34 16">
+	<backgroundColor opacity="0" value="0 0 0"/>
+	<sublayers>
+	  <CALayer allowsEdgeAntialiasing="1" allowsGroupOpacity="1" bounds="0 0 34 34" contentsFormat="RGBA8" hidden="0" masksToBounds="0" name="Bars" position="32 32">
+	    <backgroundColor opacity="0" value="0 0 0"/>
+	    <sublayers>
+	      <CALayer id="#1" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0.5 0" backgroundColor="0 0 0" bounds="0 0 4 2" contentsFormat="RGBA8" cornerRadius="2" edgeAntialiasingMask="12" name="Bar1" position="2 0">
+		<animations>
+		  <animation type="CAKeyframeAnimation" keyPath="bounds.size.height" autoreverses="1" beginTime="1e-100" duration="0.5" fillMode="both" removedOnCompletion="0" repeatCount="Inf" speed="1" timeOffset="0">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="16"/>
+		      <integer value="34"/>
+		    </values>
+		  </animation>
+		</animations>
+	      </CALayer>
+	      <CALayer id="#2" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0.5 0" backgroundColor="0 0 0" bounds="0 0 4 2" contentsFormat="RGBA8" cornerRadius="2" edgeAntialiasingMask="12" name="Bar2" position="9 0">
+		<animations>
+		  <animation type="CAKeyframeAnimation" keyPath="bounds.size.height" autoreverses="1" beginTime="1e-100" duration="0.5" fillMode="both" removedOnCompletion="0" repeatCount="Inf" timeOffset="0.5">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="16"/>
+		      <integer value="34"/>
+		    </values>
+		  </animation>
+		</animations>
+	      </CALayer>
+	      <CALayer id="#3" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0.5 0" backgroundColor="0 0 0" bounds="0 0 4 2" contentsFormat="RGBA8" cornerRadius="2" edgeAntialiasingMask="12" name="Bar3" position="16 0">
+		<animations>
+		  <animation type="CAKeyframeAnimation" keyPath="bounds.size.height" autoreverses="1" beginTime="1e-100" duration="0.5" fillMode="both" removedOnCompletion="0" repeatCount="Inf" timeOffset="0.32">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="16"/>
+		      <integer value="34"/>
+		    </values>
+		  </animation>
+		</animations>
+	      </CALayer>
+	      <CALayer id="#4" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0.5 0" backgroundColor="0 0 0" bounds="0 0 4 2" contentsFormat="RGBA8" cornerRadius="2" edgeAntialiasingMask="12" name="Bar4" position="23 0">
+		<animations>
+		  <animation type="CAKeyframeAnimation" keyPath="bounds.size.height" autoreverses="1" beginTime="1e-100" duration="0.5" fillMode="both" removedOnCompletion="0" repeatCount="Inf" speed="1" timeOffset="0.5">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="16"/>
+		      <integer value="34"/>
+		    </values>
+		  </animation>
+		</animations>
+	      </CALayer>
+	      <CALayer id="#5" allowsEdgeAntialiasing="1" allowsGroupOpacity="1" anchorPoint="0.5 0" backgroundColor="0 0 0" bounds="0 0 4 2" contentsFormat="RGBA8" cornerRadius="2" edgeAntialiasingMask="12" name="Bar5" position="30 0">
+		<animations>
+		  <animation type="CAKeyframeAnimation" keyPath="bounds.size.height" autoreverses="1" beginTime="1e-100" duration="0.5" fillMode="both" removedOnCompletion="0" repeatCount="Inf" speed="1" timeOffset="0.1000000014901">
+		    <keyTimes>
+		      <integer value="0"/>
+		      <integer value="1"/>
+		    </keyTimes>
+		    <values>
+		      <integer value="16"/>
+		      <integer value="34"/>
+		    </values>
+		  </animation>
+		</animations>
+	      </CALayer>
+	    </sublayers>
+	    <states/>
+	    <stateTransitions/>
+	  </CALayer>
+	</sublayers>
+      </CALayer>
+    </sublayers>
+    <states>
+      <LKState name="Play" initial="true">
+	<elements/>
+      </LKState>
+      <LKState name="Pause">
+	<elements>
+	  <LKStateRemoveAnimation targetId="#1" key="animation"/>
+	  <LKStateRemoveAnimation targetId="#2" key="animation"/>
+	  <LKStateRemoveAnimation targetId="#3" key="animation"/>
+	  <LKStateRemoveAnimation targetId="#4" key="animation"/>
+	  <LKStateRemoveAnimation targetId="#5" key="animation"/>
+	  <LKStateSetValue targetId="#1" keyPath="bounds.size.height">
+	    <value type="integer" value="34"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#2" keyPath="bounds.size.height">
+	    <value type="integer" value="27"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#1" keyPath="position">
+	    <value type="CGPoint" value="6 0"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#2" keyPath="position">
+	    <value type="CGPoint" value="13 3"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#3" keyPath="bounds.size.height">
+	    <value type="integer" value="19"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#3" keyPath="position">
+	    <value type="CGPoint" value="20 7"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#4" keyPath="bounds.size.height">
+	    <value type="integer" value="12"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#4" keyPath="position">
+	    <value type="CGPoint" value="27 11"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#5" keyPath="bounds.size.height">
+	    <value type="integer" value="4"/>
+	  </LKStateSetValue>
+	  <LKStateSetValue targetId="#5" keyPath="position">
+	    <value type="CGPoint" value="34 15"/>
+	  </LKStateSetValue>
+	</elements>
+      </LKState>
+    </states>
+    <stateTransitions>
+      <LKStateTransition fromState="*" toState="Pause">
+	<elements>
+	  <LKStateTransitionElement final="false" key="bounds" targetId="#1">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="bounds" targetId="#2">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="bounds" targetId="#3">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="bounds" targetId="#4">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement final="false" key="bounds" targetId="#5">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="bounds.size.height" targetId="#1">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0.085" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="bounds.size.height" targetId="#2">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0.06" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#1">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0.205" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#2">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0.13" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="bounds.size.height" targetId="#3">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0.055" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#3">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0.09" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="bounds.size.height" targetId="#4">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0.07" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#4">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0.055" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="bounds.size.height" targetId="#5">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0.05" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#5">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+      <LKStateTransition fromState="Pause" toState="*">
+	<elements>
+	  <LKStateTransitionElement enabled="false" final="false" key="bounds" targetId="#1">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" final="false" key="bounds" targetId="#2">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" final="false" key="bounds" targetId="#3">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" final="false" key="bounds" targetId="#4">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" final="false" key="bounds" targetId="#5">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" key="bounds.size.height" targetId="#1">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" key="bounds.size.height" targetId="#2">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#1">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#2">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" key="bounds.size.height" targetId="#3">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#3">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" key="bounds.size.height" targetId="#4">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#4">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement enabled="false" key="bounds.size.height" targetId="#5">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="bounds.size.height" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	  <LKStateTransitionElement key="position" targetId="#5">
+	    <animation type="CASpringAnimation" damping="400" mass="2" stiffness="300" keyPath="position" beginTime="0" duration="0.910000026226" fillMode="backwards" removedOnCompletion="1" timingFunction="0.22368 0.002045 0.55342 0.95297"/>
+	  </LKStateTransitionElement>
+	</elements>
+      </LKStateTransition>
+    </stateTransitions>
+  </CALayer>
+</caml>
