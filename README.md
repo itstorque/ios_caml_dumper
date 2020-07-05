@@ -1,6 +1,6 @@
 # CAML filedump from iOS 13.5
 
-**NOTE**: None of the files in the directory [ios-13.5-glyphs](ios-13.5-glyphs)
+**DISCLAIMER**: None of the files in the directory [ios-13.5-glyphs](ios-13.5-glyphs)
 are created/owned by the author of this repo, they are simply a copy of some
 files found in iOS's `/System/Library/` directory.
 
@@ -33,11 +33,26 @@ The default values are:
 
 `user_and_host  = 'root@localhost'`
 
+### Input File
+
+The input file should be the output of `ls -laR` on your iOS device's
+`/System/Library` directory. An easy way to do that is:
+
+```bash
+ls -laR /System/Library >> temp.txt
+```
+
+Then copy that file over using scp to your main device and feel free to delete
+`temp.txt` on your remote machine.
+
+
 ## Running The Output Script
 
-The output script file is meant to be run in an empty target directory, if the directory isn't empty, the script won't run.
+The output script file is meant to be run in an empty target directory, if the
+directory isn't empty, the script won't run.
 
-Give the file execution permission and run it in the target directory to populate it with the output CAML files.
+Give the file execution permission and run it in the target directory to populate
+it with the output CAML files.
 
 ```bash
 chmod +x [$path_to_script_file]
