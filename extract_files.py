@@ -40,11 +40,11 @@ def main(argv):
         elif opt in ("-s", "--script_file", "--script"):
             script_file = arg
 
-   return inputfile, outputfile, extension, port, user_and_host
+   return inputfile, outputfile, extension, port, user_and_host, script_file
 
 if __name__ == "__main__":
 
-    inputfile, outputfile, extension, port, user_and_host = main(sys.argv[1:])
+    inputfile, outputfile, extension, port, user_and_host, script_file = main(sys.argv[1:])
 
     extension = '.caml' if extension=="" else "."+extension
 
@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
     scp_command += "\} ./\n"
 
-    scp_command += "find ./ -maxdepth 10 -type f ! -name \"*.caml\" -delete \n"
+    scp_command += "find ./ -maxdepth 10 -type f ! \( -name \"*.caml\" -o -name \"*.xml\" \) -delete \n"
 
     scp_command += "find ./ -type d -empty -delete \n"
 

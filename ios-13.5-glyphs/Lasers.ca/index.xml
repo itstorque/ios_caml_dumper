@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>documentHeight</key>
+	<real>340</real>
+	<key>documentResizesToView</key>
+	<false/>
+	<key>documentWidth</key>
+	<real>272</real>
+	<key>dynamicGuidesEnabled</key>
+	<true/>
+	<key>geometryFlipped</key>
+	<false/>
+	<key>guidesEnabled</key>
+	<false/>
+	<key>loopEnd</key>
+	<real>+infinity</real>
+	<key>loopStart</key>
+	<real>0.0</real>
+	<key>loopingEnabled</key>
+	<false/>
+	<key>multitouchDisablesMouse</key>
+	<false/>
+	<key>multitouchEnabled</key>
+	<true/>
+	<key>publishedObjectNames</key>
+	<array>
+		<string>spotlight</string>
+		<string>0</string>
+		<string>ray</string>
+		<string>light</string>
+		<string>replicator</string>
+		<string>halo</string>
+	</array>
+	<key>rootDocument</key>
+	<string>main.caml</string>
+	<key>savesWindowFrame</key>
+	<false/>
+	<key>showsTouches</key>
+	<false/>
+	<key>snappingEnabled</key>
+	<true/>
+	<key>timelineMarkers</key>
+	<string>[{"when":5.996667}]</string>
+	<key>touchesColor</key>
+	<string>1 1 0 0.8</string>
+</dict>
+</plist>
